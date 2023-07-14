@@ -3,7 +3,7 @@
 
 ## Problem Statement
 
-The Indian Council of Medical Research (ICMR) aims to investigate the causes of various types of cancers, including breast cancer, renal cancer, colon cancer, lung cancer, and prostate cancer, which have become a growing concern in recent years. The objective is to identify the genetic factors responsible for each type of cancer, enabling early detection and reducing the fatality rate.
+The Indian Council of Medical Research (ICMR) is dedicated to studying the underlying causes of different types of cancers, such as breast cancer, renal cancer, colon cancer, lung cancer, and prostate cancer. These types of cancer have emerged as significant concerns in recent years. The primary goal is to identify the specific genetic factors that contribute to each type of cancer, allowing for early detection and intervention. By uncovering these genetic markers, the aim is to reduce the fatality rate associated with these cancers and improve patient outcomes.
 
 ## Dataset Details
 
@@ -19,7 +19,7 @@ The dataset consists of 802 samples from individuals diagnosed with different ty
 
 ### Step 2: Dimensionality Reduction
 
-Given the large number of genes (20,000+) in each sample, it is not necessary to include all gene expression values for analyzing each cancer type. The goal is to identify a smaller set of informative attributes for fitting multiclass classification models. Dimensionality reduction techniques such as PCA, LDA, and t-SNE will be employed.
+Given a large number of genes (20,000+) in each sample, it is not necessary to include all gene expression values for analyzing each cancer type. The goal is to identify a smaller set of informative attributes for fitting multiclass classification models. Dimensionality reduction techniques such as PCA, LDA, and t-SNE will be employed.
 
 ### Step 3: Clustering Genes and Samples
 
@@ -37,4 +37,4 @@ The final task involves constructing robust classification models to identify ea
 - Apply feature selection algorithms (forward selection and backward elimination) using the selected attributes from Step 2.
 - Validate the selected genes using statistical significance testing (t-test for one vs. all and F-test).
 
-By completing these steps, we aim to contribute to early cancer detection by developing effective classification models that can accurately identify different types of cancer based on genetic attributes.
+By completing these steps, I aim to contribute to early cancer detection by developing effective classification models that can accurately identify different types of cancer based on genetic attributes.
