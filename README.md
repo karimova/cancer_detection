@@ -1,4 +1,4 @@
-# Cancer Early Detection
+# Early Cancer Detection
 <img src="p-4.jpg" alt="cancer" width="600">
 
 ## Problem Statement
