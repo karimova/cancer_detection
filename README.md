@@ -35,6 +35,6 @@ The final task involves constructing robust classification models to identify ea
 
 - Build classification models using multiclass SVM, Random Forest, and Deep Neural Network.
 - Apply feature selection algorithms (forward selection and backward elimination) using the selected attributes from Step 2.
-- Validate the selected genes using statistical significance testing (t-test for one vs. all and F-test).
+- Validate the selected genes using statistical significance testing (F-test).
 
 By completing these steps, I aim to contribute to early cancer detection by developing effective classification models that can accurately identify different types of cancer based on genetic attributes.
