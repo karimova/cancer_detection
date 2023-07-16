@@ -26,7 +26,6 @@ Given a large number of genes (20,000+) in each sample, it is not necessary to i
 The objective is to identify groups of genes that exhibit similar behavior across samples and examine the distribution of samples corresponding to each cancer type. Various clustering techniques, including k-means, hierarchical, and mean-shift clustering, will be applied to genes and samples.
 
 - Identify genes with similar expression values across all samples.
-- Identify genes with similar expression values across samples of each cancer type.
 - Identify samples belonging to the same cancer type and cluster.
 
 ### Step 4: Building Classification Model(s) with Feature Selection
